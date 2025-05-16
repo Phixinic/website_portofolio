@@ -4,6 +4,10 @@
   --acsentColor: #ff9100;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--mainColor);
   min-width: 100px;
@@ -22,6 +26,12 @@ section h1 {
   font-weight: 700;
 }
 
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 1;
+  transition: 0.7s;
+}
+
 /* End Navbar */
 
 /* Hero */
@@ -33,6 +43,7 @@ section h1 {
 #hero {
   color: #fff;
   min-height: 100vh;
+  padding-top: 50px;
 }
 
 #hero h1 {
@@ -137,7 +148,7 @@ hr {
 
 #sertifikat {
   margin-top: -170px;
-  padding: 270px;
+  padding-top: 270px;
   padding-bottom: 80px;
   background-color: var(--secondaryColor);
 }
@@ -159,3 +170,5 @@ hr {
 }
 
 /* End Portofolio */
+
+/*  */
